@@ -2,18 +2,6 @@
 
 A sophisticated multi-agent Retrieval-Augmented Generation (RAG) system designed for intelligent document analysis and conversation.
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## 🎯 Overview
 
 DocChat-Multi-Agent-RAG-System is an advanced document intelligence platform that leverages multiple specialized agents to provide comprehensive document analysis, retrieval, and conversational capabilities. It combines the power of Retrieval-Augmented Generation (RAG) with multi-agent architecture to deliver accurate, context-aware responses about your documents.
