@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  docchat:
+    build: .
+    container_name: docchat_app
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./db:/app/db              # Persist ChromaDB index
+      - ./app.log:/app/app.log    # Persist logs
+      - ./examples:/app/examples  # Access to example PDFs
+    environment:
+      - WATCHX_API_KEY=${WATSONX_API_KEY}
+      - PROJECT_ID=${PROJECT_ID}
+    restart: always
