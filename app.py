@@ -2,7 +2,7 @@ import gradio as gr
 import hashlib
 from typing import List, Dict
 import os
-
+import numpy as np
 from document_processor.file_handler import DocumentProcessor
 from retriever.builder import RetrieverBuilder
 from agents.workflow import AgentWorkflow
