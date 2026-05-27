@@ -92,21 +92,6 @@ DEBUG=false
 LOG_LEVEL=INFO
 ```
 
-## 📁 Project Structure
-
-```
-DocChat-Multi-Agent-RAG-System/
-├── src/
-│   ├── agents/              # Agent implementations
-│   ├── retrieval/           # Retrieval logic
-│   ├── generation/          # Generation logic
-│   └── utils/               # Utility functions
-├── tests/                   # Test suite
-├── docs/                    # Documentation
-├── requirements.txt         # Python dependencies
-├── .env.example            # Environment variables template
-└── README.md               # This file
-```
 
 ## 🤝 Contributing
 
